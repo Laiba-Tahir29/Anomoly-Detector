@@ -2,6 +2,8 @@
 data/
 *.csv
 *.pkl
+*.env
+*report.md
 
 # Model weights
 *.pt

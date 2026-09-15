@@ -4,3 +4,4 @@ torch
 scikit-learn
 streamlit
 requests
+plotly>=5.20,<7.0
