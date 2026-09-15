@@ -74,7 +74,7 @@ streamlit run app.py
 
 ### Gemini API setup
 
-The app uses `gemini-2.5-flash` by default. Create `.streamlit/secrets.toml` with:
+The app uses `gemini-3.1-flash-lite` by default. Create `.streamlit/secrets.toml` with:
 
 ```toml
 GEMINI_API_KEY = "your-api-key"
@@ -83,4 +83,3 @@ GEMINI_API_KEY = "your-api-key"
 You can optionally set `GEMINI_MODEL` to another enabled Gemini model. The app also accepts `GEMINI_API_KEY` or `GOOGLE_API_KEY` as environment variables. Without an API key, it uses a valid saved explanation from `data/llm_explanations.pkl` when one is available.
 
 
-## Author
