@@ -84,5 +84,3 @@ You can optionally set `GEMINI_MODEL` to another enabled Gemini model. The app a
 
 
 ## Author
-
-[Your name] — built as part of a Mitacs Globalink research proposal.
